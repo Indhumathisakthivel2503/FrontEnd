@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body style="background-color: rgba(173, 83, 98, 0.968);">
+    <center>
+     <form style="margin: 25px;">
+        <h2>Contact Us!</h2>
+            <label for="fname">First Name: </label>
+            <input type="text" name="fname" id="fname" placeholder="Enter your First Name" required>
+        <p>
+            <label for="lname">Last Name: </label>
+            <input type="text" name="lname" id="lname" placeholder="Enter your Last Name">
+        </p>
+        <p>
+            <label for="gender">Gender: </label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+        </p>
+        <p>
+            <label for="mail">E-Mail: </label>
+            <input type="email" name="mail" id="mail" placeholder=" Enter your Email" required>
+        </p>
+        <p>
+            <label for="number">Mobile Number: </label>
+            <input type="tel" name="number" id="number" placeholder="Enter your mobile number">
+        </p>
+        <p>
+            <textarea name="message" id="message" placeholder="Let's know about your favourite!" rows="" cols="50" required></textarea>
+        </p>
+        <p><button>Submit</button></p>
+    </form>
+   </center>
+</body>
+</html>
